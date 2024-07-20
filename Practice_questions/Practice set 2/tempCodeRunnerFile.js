@@ -1,0 +1,1 @@
+const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
