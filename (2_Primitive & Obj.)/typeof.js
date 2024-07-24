@@ -1,5 +1,7 @@
 console.log(typeof undefined) // "undefined"
 
+console.log(typeof NaN) // "NaN"
+
 console.log(typeof 0) // "number"
 
 console.log(typeof 10n) // "bigint"

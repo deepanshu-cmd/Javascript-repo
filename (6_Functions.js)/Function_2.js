@@ -11,15 +11,18 @@ const sum_of_odd = () => {
     }
     return "Sum of odd numbers = " + Sumodd
 }
-// !*! The above is called arrow function.
 
-let n = prompt("Enter n for even : ")
-let Sumeven = 0
-for (let i = 2; i <= n; i++) {
-    if (i % 2 == 0) {
-        console.log(i)
-        Sumeven += i
+const sum_of_even = () => {
+    let n = prompt("enter n for even : ")
+    let Sumeven = 0
+    for (let i = 1; i <= n; i++) {
+        if (i % 2 == 0) {
+            console.log(i)
+            Sumeven += i
+        }
     }
+    return "Sum of even numbers = " + Sumeven
 }
-console.log("Sum of even numbers = " + Sumeven)
+// !*! The above is called arrow function.
 console.log(sum_of_odd())
+console.log(sum_of_even())

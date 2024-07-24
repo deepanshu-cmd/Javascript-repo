@@ -1,5 +1,7 @@
 // ** All other types are called “primitive” because their values can contain only a single thing (be it a string or a number or whatever). In contrast, objects are used to store collections of data and more complex entities.An Object is a non-primitive data_type in JS.In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
 
+//% In js objrct,array,functions,map,error,set etc are no-primitive Data_Types. 
+
 // ? Syntax of creating an Object:-
 // ? const obj_name = {
 // ?     "property_1" : value1, // property name may be an identifier or a string or a number

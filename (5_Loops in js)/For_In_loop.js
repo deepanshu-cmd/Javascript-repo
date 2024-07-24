@@ -11,6 +11,8 @@ let Marks = {
     Akshit: "52"
 }
 
+console.log(Marks);
+
 for (let a in Marks) {
     console.log("Marks of " + a + " are " + Marks[a])
 }

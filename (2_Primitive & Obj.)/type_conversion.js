@@ -20,7 +20,7 @@ console.log("value_2 type before conversion = " + typeof value_2);
 value_2 = Number(value_2);
 console.log("value_2 = " + value_2);
 console.log("After type conversion : " + typeof (value_2));
-//^ If the string is not a valid number, the result of such a conversion is NaN.
+//^ If the string is not a valid number, the result of such a conversion is NaN(type of NaN is number).
 
 console.log('\n')
 //* Boolean Coversion.

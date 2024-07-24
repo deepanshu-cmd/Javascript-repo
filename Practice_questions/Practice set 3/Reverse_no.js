@@ -12,6 +12,3 @@ while (f != 0) {
     f = parseInt(f / 10)
 }
 console.log("Reverse of given number  " + n + " = " + sum)
-
-
-

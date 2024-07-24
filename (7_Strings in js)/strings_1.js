@@ -15,9 +15,8 @@ console.log("S = ", S)
 console.log("Length of string S = ", S.length)
 
 //? Program to print elements of string in reverse manner. 
-for(let i=(s.length-1);i>=0;i--)
-    {
-        console.log(s[i])
-    }
+for (let i = (s.length - 1); i >= 0; i--) {
+    console.log(s[i])
+}
 
 //@ Note: We can't use double and single qoutes in a single text(for ex:- "babita' or "Bitt'oo'" --> This will give error.)

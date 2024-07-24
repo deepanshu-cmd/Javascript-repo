@@ -6,7 +6,7 @@ const word = 'fox';
 
 console.log(sentence.includes(word)) //* If word="fox" is found in the sentence then true otherwise false.
 
-console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} in the sentence`,);
+console.log(`The word "${word}" ${sentence.includes(word) ? 'is' : 'is not'} found in the sentence`,);
 //* Expected output : "The word "fox" is in the sentence"
 //^ The includes() method of String values performs a case-sensitive search to determine whether a given string may be found within this string, returning true or false as appropriate.
 
