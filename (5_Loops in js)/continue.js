@@ -7,7 +7,7 @@ const print_even = () => {
         if (i % 2 != 0) {
             continue;
         }
-        console.log(i); //% //% Exclude all odd  numbers and back to looping
+        console.log(i);//% Exclude all odd  numbers and back to looping
     }
 }
 const print_odd = () => {

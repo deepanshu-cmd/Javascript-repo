@@ -1,4 +1,4 @@
-//? Creat an array of number and take input from user to add number to this array 
+//? Creat an array of number and take input from user to add a number to this array 
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
 let num_arr = []
 let size = prompt("Array Size : ")

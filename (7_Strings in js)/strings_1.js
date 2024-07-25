@@ -10,7 +10,7 @@ console.log(s[3])
 console.log(s[4])
 console.log(s[5])
 
-let S = 'Bits' //* Second methode to declare a string (using single quotes quotes.)
+let S = 'Bits' //* Second methode to declare a string (using single quotes.)
 console.log("S = ", S)
 console.log("Length of string S = ", S.length)
 

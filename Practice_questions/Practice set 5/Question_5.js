@@ -1,4 +1,4 @@
-//? Create an array of sqaure of the elements of anohter array. 
+//? Create an array of sqaure of the elements from anohter array. 
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
 let arr_1 = []
 let size = prompt("Array size : ")

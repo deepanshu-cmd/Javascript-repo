@@ -1,4 +1,4 @@
-//? Filter no from an array divisible by 10.
+//? Filter no. from an array divisible by 10.
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
 let num_arr = []
 let size = prompt("Array size : ")

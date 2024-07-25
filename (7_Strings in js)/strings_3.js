@@ -21,7 +21,6 @@ console.log(Name3);
 console.log(Name3.trim()); //* Going to remove white space.
 
 //@ Note: Strings are immutable(we can't change them,above in all methods a new string was created and the previous string remains the same.)
-
 let Name4 = "Deepanshu";
 console.log(Name4);
 Name4[1] = "E";

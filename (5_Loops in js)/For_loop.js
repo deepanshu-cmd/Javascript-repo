@@ -13,7 +13,7 @@ for (let i = 1; i <= n; i++) {
 console.log("Sum of " + n + " natural numbers is equals to " + sum)
 // ! For value of i either declare i globally or use var.
 
-//* for (let i = 0; i < 3; i++) alert(i)
+//* for (let i = 0; i < 3; i++) connsol.log(i);
 //^ run begin
 let i = 0
 //^ if condition → run body and run step

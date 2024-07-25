@@ -5,7 +5,7 @@
 
 function showMessage(from, text) {
 
-    from = '*' + from + '*'; // make "from" look nicer
+    from = '*' + from + '*'; 
 
     console.log(from + ': ' + text);
 }

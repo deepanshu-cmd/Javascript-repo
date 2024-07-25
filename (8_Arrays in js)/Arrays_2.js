@@ -1,6 +1,6 @@
 // ? Arrays Methods.
 let num = [26, 20, 11, 15, 6]
-console.log("Original array(num) : ", num)
+console.log("Original array(num) : ", num, "typeof num = ", typeof num);
 
 //! toString()
 let b = num.toString() //% Going to change type of array from object to string
@@ -12,7 +12,7 @@ let c = num.join("--->") //% Going to Join all the array elements by using a sep
 console.log(c) //^ After using .join() array elements got seperated by "--->".
 
 //! pop() 
-let d = num.pop() //% Removes the last element from an array.d returns the poped value.
+let d = num.pop() //% Removes the last element from an array.'d' returns the poped value.
 console.log("modified array(num) : ", num, "poped value : ", d) //^ Updates the orignal array and returns the poped value.
 
 //! push() 
