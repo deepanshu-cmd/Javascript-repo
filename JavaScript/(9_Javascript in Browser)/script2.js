@@ -12,4 +12,4 @@ if (write) {
 
 }
 
-//% Limitation of these function: The exact location and styling of msg box(or module) is determined by browser & also block the maine execution thread of javascript. 
+//% Limitation of these function: The exact location and styling of msg box(or module) is determined by browser & also block the main execution thread of javascript. 

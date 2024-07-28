@@ -1,10 +1,9 @@
-//* alert("Babita Thakur");
 console.log(console);
 
 //* f log() -->return value undefined.
 console.log("Babita Thakur❤️");
 
-//* f alert() -->return value undefined.
+//* f error() -->return value undefined.
 console.error("Hey this is an error!");
 
 //* f assert() -->checks conditon if true then return value undefined and if false -->shows error msg in red alert on borwser + return value undefined.

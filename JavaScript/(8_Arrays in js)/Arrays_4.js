@@ -18,10 +18,13 @@ console.log("\n")
 //! Array.from{}
 //% Use to create array from any other object html documents.
 //^ See its working in any website also. 
-let Name = "Babita"
-let arr = Array.from(Name)
-console.log(arr)
-console.log("\n")
+let Name = "Babita";
+console.log(Name);
+console.log(typeof Name);
+let arr = Array.from(Name);
+console.log(arr);
+console.log(typeof arr);
+console.log("\n");
 
 //! For of{} 
 //% Shortcut to access array elements 
