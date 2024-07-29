@@ -25,7 +25,7 @@ console.table(marks);
 //* f warn() --> Gives warning msg in yellow alert in browser console & return value undefined. 
 console.warn("Don't smoke here!");
 
-//* f info() --> similar to log just shows info section of inspect & return value undefined.
+//* f info() --> similar to log just shows in info section of inspect & return value undefined.
 console.info("Bittoo");
 // console.info(console); //% Shows log in info section of inspect.
 
