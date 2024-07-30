@@ -18,7 +18,7 @@ console.log(typeof (document.documentElement));
 
 //@ NOTE: document.body can sometimes returns null if js is written before the <body>
 
-//? Children of an element : Direct or deeply nested elements of an element are called its children.<body> & <head> are called child nodes as they are direct children of <html> whereas all nested elements,children,.... are called descendant.
+//? Children of an element : Direct or deeply nested elements of an element are called its children. <body> & <head> are called child nodes as they are direct children of <html> whereas all nested elements,children,.... are called descendant.
 //* Accessing elements:-
 //^ document.element.firstchild  ---> First child.
 //^ document.element.lastchild  ---> Last child.
