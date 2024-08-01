@@ -1,0 +1,112 @@
+<!-- Creat a navbar and change color of its first element to red through js. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navbar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            height: 10%;
+            background-color: black;
+
+            & .section_navbar {
+                color: white;
+                width: 100%;
+                height: 100%;
+
+                & ul {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    list-style: none;
+
+                    & li {
+                        display: inline-block;
+                        font-size: 1.8rem;
+                        position: relative;
+
+                        &::after {
+                            content: "";
+                            width: 0%;
+                            height: 0%;
+                            position: absolute;
+                            left: 0rem;
+                            bottom: 0rem;
+                            border-bottom: 2px solid white;
+                            transition: all 0.3s linear;
+                        }
+
+                        &:hover::after {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="section_navbar">
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Blog</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <table>
+        <tr>Day 1</tr>
+        <tr>Day 2</tr>
+        <tr>Day 3</tr>
+        <tr>Day 4</tr>
+        <!-- In browser inspect we will see table has <tbody> tag but not in "view page source" coz view page source do not autocorrect anything.  -->
+    </table>
+
+    <div class="contianer">
+        <ul>
+            <li class="list">Appel</li>
+            <li class="list">Banana</li>
+            <li class="list">Grapes</li>
+            <li class="list">Gavava</li>
+            <li class="list">orange</li>
+        </ul>
+    </div>
+
+    <script>
+        // let c = document.body.firstElementChild.firstElementChild.firstElementChild.firstElementChild;
+        let c = document.getElementsByTagName("ul")[0].firstElementChild;
+        c.style.color = "red";
+        console.log(c);
+
+        let li = Array.from(document.getElementsByClassName("list"));
+        console.log(li);
+        for (let i = 0; i < 4; i++) {
+            li[i].style.background = "blue";
+        }
+        // li.forEach((element) => {
+        //     element.style.background = "orange";
+        // })
+    </script>
+</body>
+
+</html>

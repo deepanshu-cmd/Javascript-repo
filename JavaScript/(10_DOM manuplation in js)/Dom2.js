@@ -1,5 +1,5 @@
 //? DOM tree refres to html page where all the nodes are object.Three main type of nodes:text node,element node & comment node.A text node is always a leaf of a tree.In html page <html> tag is at the root and <head> & <body> tags are its childern.
-//? Auto correction: If there is an error in html page.
+//? Auto correction: If there is an error in html page then in browser inspect element auto correction happens.
 //% document.head --->return tag.
 //% document.body --->return tag.
 //% document.title --->return string.

@@ -9,8 +9,8 @@ let b = document.getElementById("firstcard-title");
 // b.style.background = "yellow";
 
 //? querySelectorAll.
-let q = document.querySelectorAll(".card-title"); //% Writting '.' & '#' for class and id selector is must.
-console.log(q);
+let q = document.querySelectorAll(".card-title"); //* Writting '.' & '#' for class and id selector is must.
+console.log(q); //% NodeList(3) [h5#firstcard-title.card-title, h5#firstcard-title.card-title, h5#firstcard-title.card-title]
 q[0].style.background = "yellow";
 q[0].style.color = "green";
 
@@ -28,10 +28,12 @@ Q.style.color = "yellow";
 let t = document.getElementsByTagName("a");
 let T = document.body.getElementsByTagName("a");
 let T2 = document.querySelector(".container").getElementsByTagName("a");
-console.log(t);
-console.log(T);
-console.log(T2);
+console.log(t); //% HTMLCollection(11) [a.navbar-brand, a.nav-link.active, a.nav-link, a.nav-link.dropdown-toggle, a.dropdown-item, a.dropdown-item, a.dropdown-item, a.nav-link.disabled, a.btn.btn-primary.this, a.btn.btn-primary, a.btn.btn-primary]
+
+console.log(T); //% HTMLCollection(11) [a.navbar-brand, a.nav-link.active, a.nav-link, a.nav-link.dropdown-toggle, a.dropdown-item, a.dropdown-item, a.dropdown-item, a.nav-link.disabled, a.btn.btn-primary.this, a.btn.btn-primary, a.btn.btn-primary]
+
+console.log(T2); //% HTMLCollection(3) [a.btn.btn-primary.this, a.btn.btn-primary, a.btn.btn-primary]
 
 //? getElementsByName.
 let N = document.getElementsByName("search");
-console.log(N); 
+console.log(N); //% NodeList [input.form-control.me-2]
