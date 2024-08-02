@@ -56,7 +56,7 @@
                         orange,
                         red,
                         violet);
-                /*         background-image: conic-gradient(from var(--angle), transparent 70%, blue); */
+                /* background-image: conic-gradient(from var(--angle), transparent 70%, blue); */
                 border-radius: inherit;
                 top: 50%;
                 left: 50%;
@@ -70,10 +70,15 @@
                 filter: blur(1.5rem);
             }
 
-            &:hover::after,
-            &:hover::before {
-                animation: rotate 1s linear 0s infinite;
+            &:hover {
+                background-color: #0a0d36;
+
+                &::after,
+                &::before {
+                    animation: rotate 1s linear 0s infinite;
+                }
             }
+
 
             & .box {
                 font-size: 2.4rem;
