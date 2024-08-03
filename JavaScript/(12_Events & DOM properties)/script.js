@@ -13,7 +13,7 @@ console.log(n2); //% SPAN
 
 //* innerHTMl.---> It allows to get HTML inside an element as a string,valid for element nodes only.For other node type we can use Node value or data.
 let i = first.innerHTML;
-console.log(i); //% <b> You afre beautifull </b>Babita Thakur.
+console.log(i); //% <b> You are beautifull </b>Babita Thakur.
 
 // first.innerHTML = "<i>Bittoo eyes are so gorgeous</i>" //% On browser display text b/w <i> got displayed.(see in inspect)
 
@@ -26,5 +26,5 @@ console.log(o); //% <span id="first"><i>Bittoo eyes are so gorgeous</i></span>
 console.log(document.body.textContent);
 
 //* hidden 
-let h = box.hidden = false; //% Works with id.
-console.log(h);
+// let h = box.hidden = false; //% Works with id.
+// console.log(h);
