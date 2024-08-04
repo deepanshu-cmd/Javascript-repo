@@ -25,6 +25,6 @@ console.log(o); //% <span id="first"><i>Bittoo eyes are so gorgeous</i></span>
 //* text content  --> Provides access to text inside the element, only text minus all tags.
 console.log(document.body.textContent);
 
-//* hidden 
+//* hidden
 // let h = box.hidden = false; //% Works with id.
 // console.log(h);
