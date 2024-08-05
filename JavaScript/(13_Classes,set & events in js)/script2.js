@@ -1,5 +1,5 @@
 // const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
-alert("Deepanshu yadav");
+// alert("Deepanshu yadav");
 
 //? setTimeout(func_name,delay, <arg1>, <arg2>,....) 
 //* I want to alert "bits" after 2s of  alert("Deepanshu yadav");
@@ -8,7 +8,7 @@ alert("Deepanshu yadav");
 // }, 5000)
 
 //* removing setTimeout.
-// let b = prompt("Do you want to show alert after 2s: ");
+// let b = prompt("Do you want to show alert after 5s: ");
 // if (b == "no") {
 //     clearTimeout(a); //% Nothing will happen after 5s.
 // }

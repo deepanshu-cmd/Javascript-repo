@@ -1,0 +1,32 @@
+<!-- Browser Events: An Event is a signal that something has happend.All DOM Nodes generate signal.
+Some Important events like moues events, keyboard events, Form element events & Document events. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events</title>
+</head>
+
+<body>
+    <!-- On hovering button(bits) alert message 'Babita Thakur' displayed on brower screen. -->
+    <div class="container" onmouseenter="alert('Babita Thakur')">
+        <!-- On clicking button(bits) alert message 'Deepanshu Yadav' will display on browser screen. -->
+        <button onclick="alert('Deepanshu Yadav'); let a=26; console.log(a);">Bits</button>
+        <button class="btn">Deepanshu</button>
+    </div>
+
+    <script>
+        //Instead of writing inline js,We can handle events through external or internal js.
+        
+        let b = document.getElementsByClassName("btn")[0];
+        b.onclick = () => {
+            return alert(20 * 26);
+        }
+
+        //Priority of js code > inline js code on html document. 
+    </script>
+</body>
+
+</html>

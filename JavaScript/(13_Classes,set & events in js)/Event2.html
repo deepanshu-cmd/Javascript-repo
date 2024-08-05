@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listner.</title>
+</head>
+
+<body>
+    <div class="container">
+        <button id="btn">Click Me.</button>
+    </div>
+
+    <script>
+        //addEventListener: It is used to assign multiple handlers to an event.
+        let a = document.getElementById("btn");
+
+        let x = function (e) {
+            // e or any think (ex:deepanshuh or event) ---> Event Object:When an event happens , the browser creats an event object,puts details into it and passes it as an argument to handler. 
+            console.log(e);
+            console.log(e.target);
+            alert("Deepanshu");
+        }
+
+        let y = function (e) {
+            console.log(e);
+            alert("Babita Thakur");
+        }
+
+        // a.addEventListener('click', function (e) {
+        //     alert("Deepanshu");
+        // })
+        a.addEventListener('click', x)
+
+        // a.addEventListener('click', function (e) {
+        //     alert("Babita Thakur");
+        // })
+        a.addEventListener('click', y);
+
+        //Suppose we only want to display "Babita Thakur".
+        let b = +prompt("Enter your number: ");
+
+        if (b == 26) {
+            //Below code won't work as reference of function is not same. Handler must be of same function object for this work. 
+            // a.removeEventListener('click', function (e) {
+            //     alert("Deepanshu");
+            // })
+
+            a.removeEventListener('click', x);
+
+        } 
+    </script>
+</body>
+
+</html>
