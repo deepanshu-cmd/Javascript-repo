@@ -1,0 +1,39 @@
+<!-- Write a program which shows diffrent alert on clicking diffrent button. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouestion_1</title>
+</head>
+
+<body>
+    <div class="container">
+        <button id="first">Frist</button>
+        <button id="second">Second</button>
+        <button id="third">Third</button>
+    </div>
+
+    <script>
+        let btn_1 = document.getElementById("first");
+        console.log(btn_1);
+        btn_1.onclick = () => {
+            return alert('Deepanshu Yadav');
+        }
+
+        let btn_2 = document.getElementById("second");
+        console.log(btn_2);
+        btn_2.onclick = () => {
+            return alert(26 ** 20);
+        }
+
+        let btn_3 = document.getElementById("third");
+        console.log(btn_3);
+        btn_3.onclick = () => {
+            return alert("Babita Thakur!");
+        }
+    </script>
+</body>
+
+</html>

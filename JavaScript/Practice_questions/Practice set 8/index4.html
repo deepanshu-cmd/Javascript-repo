@@ -1,0 +1,59 @@
+<!-- Creat a glowing bulb using classList and toggel method in js. -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question_4</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-size: 62.5%;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bulb_conatiner {
+            width: 40rem;
+            height: 40rem;
+            border-radius: 50%;
+            background: #111111;
+
+
+            /* &:hover {
+                background-color: #ffff00;
+                box-shadow: 0rem 0rem 5rem #ffff00;
+            } */
+        }
+
+        .bulb {
+            background-color: #ffff00;
+            box-shadow: 0rem 0rem 5rem #ffff00;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="bulb" class="bulb_conatiner bulb"></div>
+    <script>
+        setInterval(async function () {
+            document.querySelector("#bulb").classList.toggle("bulb");
+        }, 300)
+
+    </script>
+</body>
+
+</html>

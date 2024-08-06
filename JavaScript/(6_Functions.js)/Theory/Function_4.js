@@ -10,13 +10,13 @@ function showMessage(from, text) {
     console.log(from + ': ' + text);
 }
 
-let from = "Ann";
+let from = "Babita";
 
-showMessage(from, "Hello"); // *Ann*: Hello
-showMessage(from); // *Ann*: undefined
+showMessage(from, "Hello"); // *Babita*: Hello
+showMessage(from); // *Babita*: undefined
 
 //% the value of "from" is the same, the function modified a local copy
-console.log(from); //* Ann
+console.log(from); //* Babita
 
 function doNothing() { /* empty */ }
 
