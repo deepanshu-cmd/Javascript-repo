@@ -1,11 +1,11 @@
 // const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
 
-//? Function Expression: Initializing a variable with function makes an function expression.Name of the variable act as a function name.
+//? Function Expression: Initializing a variable with function makes an function expression.Name of the variable act as a function name(that's y ommiting function name is allowed in function expression).
 let d = function () {
     console.log("Babita thakkur is so beautifull.");
 };
-console.log(d); //% [Function: d]
-
+console.log("d = ",d); //% [Function: d]
+console.log("d = ", d());
 //@ NOTE:There’s no name after the function keyword. Omitting a name is allowed for Function Expressions. 
 
 // let d = function deepanshu() {

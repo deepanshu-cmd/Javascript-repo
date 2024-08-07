@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
-// !*! Another way to creat and use the function.
+// !*! Another way to create and use the function.
 const sum_of_odd = () => {
     let n = prompt("enter n for odd : ")
     let Sumodd = 0
@@ -23,6 +23,6 @@ const sum_of_even = () => {
     }
     return "Sum of even numbers = " + Sumeven
 }
-// !*! The above is called arrow function.
+// !*! The above is called Arrow function.
 console.log(sum_of_odd())
 console.log(sum_of_even())

@@ -6,13 +6,13 @@ function ask(question, yes, no) {
     if (q == "yes") {
         yes();
         console.log(yes);
-        //^ yes contains copy of showOk function ,so yes()==showOk.
+        //^ yes contains copy of showOk function ,so yes==showOk.
     }
 
     else if (q == "no") {
         no();
         console.log(no);
-        //^ yes contains copy of showCancel function ,so no()==showOk.
+        //^ yes contains copy of showCancel function ,so no==showOk.
     }
 }
 
