@@ -4,7 +4,7 @@
 let d = function () {
     console.log("Babita thakkur is so beautifull.");
 };
-console.log("d = ",d); //% [Function: d]
+console.log("d = ", d); //% [Function: d]
 console.log("d = ", d());
 //@ NOTE:There’s no name after the function keyword. Omitting a name is allowed for Function Expressions. 
 

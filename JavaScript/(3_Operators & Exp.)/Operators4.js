@@ -13,9 +13,9 @@ console.log(logical_operators)
 let a = 26
 let b = 20
 console.log("a>b && a!=b : ", a > b && a != b)
-console.log("a<b&&a!=b : ", a < b && a != b) //! Both conditions must be true for true output
+console.log("a<b&&a!=b : ", a < b && a != b) //! Both conditions should be true for true output
 console.log("a>b || a!=b : ", a > b || a != b)
-console.log("a<b&&a!=b : ", a < b || a != b) //! Atleat one conditon is true for true output
+console.log("a<b&&a!=b : ", a < b || a != b) //! Atleat one conditon should be true for true output
 console.log("a<b&&a!=b : ", a < b || a == b)
 //^ Precedence of AND (&&) is higher than OR (||)
 

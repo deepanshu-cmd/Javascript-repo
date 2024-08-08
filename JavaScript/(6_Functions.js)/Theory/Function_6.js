@@ -1,5 +1,5 @@
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
-//? Callback Function.
+//? Callback Function:When we pass a function as an argument in an another function that passed function is called callback function.
 
 function ask(question, yes, no) {
     let q = prompt(question);

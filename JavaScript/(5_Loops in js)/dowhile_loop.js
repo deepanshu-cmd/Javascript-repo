@@ -8,8 +8,7 @@ do{
 */
 
 const prompt = require('prompt-sync')(); //! exclude this to use below code on browser.
-let n = prompt("Enter value of n :")
-n = parseInt(n)
+let n = +prompt("Enter value of n :")
 let i = prompt("Enter initialization value : ")
 do {
     console.log(i)
