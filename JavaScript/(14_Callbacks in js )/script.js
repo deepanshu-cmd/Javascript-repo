@@ -55,3 +55,9 @@ let b = +prompt("Enter b: ");
 let oprator = "Enter the type of operation on a & b: ";
 operation(oprator, add, subtract, divide, multiply);
 //^ add,subtract,divide & multiply are callback functions. They were passed as an argument in function 'operation'.The copy these function got stored in the 'operation' function's parameters.
+
+//@ Drawbacks of Using callbacks:
+//! Callback hell (pyramid of doom). --> due to nested callbacks
+//! Reduces Readability & Maintinance of code.
+//! Lack of sequential flow.
+//! Inversion of Control.
