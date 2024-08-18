@@ -1,6 +1,6 @@
+"use strict";
 const prompt = require('prompt-sync')();
 //? W.A.P which reverse the given multi-digit number.
-
 const reverse = (number) => {
     let sum = 0;
     let reminder = 0;

@@ -27,10 +27,10 @@ let operation = (oprator, addition, subtraction, division, multiplication) => {
         subtraction(a, b)
     }
     else if (op == '/') {
-        division(a, b)
+        division(a, b);
     }
     else if (op == '*') {
-        multiplication(a, b)
+        multiplication(a, b);
     }
     else {
         console.log("Wrong Input");
