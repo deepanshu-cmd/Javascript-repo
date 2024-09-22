@@ -7,8 +7,8 @@
 let a = null; //% In JavaScript, null is not a “reference to a non-existing object” or a “null pointer” like in some other languages.It’s just a special value which represents “nothing”, “empty” or “value unknown”.
 
 let b = 26; //% Number ---> Range[(2^53-1), -(2^53-1)]
-let B = 1 / 0;
-let B_2 = "not a number" / 2;
+let B = 1 / 0; //% Infinity
+let B_2 = "not a number" / 2; //% NaN
 
 let c = true; //% boolean value(True or False)
 

@@ -5,11 +5,11 @@ let a = 26
     //** var a = 20
     //** a=15 ---> updation is allowed.
     //** var a = 31 ---> re-declaration is allowed.
-    console.log("Inside of block variable 'a' value:")
+    console.log("Inside of block variable a value:")
     console.log(a)
 }
 //% Out of block statement.
-console.log("Outside of block variable 'a' value : ", a)
+console.log("Outside of block variable 'a' value : ",a)
 
 
 // ! var is a global scope variable if we change value of var in any block than it will change gloabally whereas let & const are block or local scope variable if we change value of let in a block than that modified value get assingn to let 'a' locally not globally.
@@ -18,7 +18,7 @@ console.log("Outside of block variable 'a' value : ", a)
 /* example:
 var a=34
 a="26.20" ---> updation.
-var a="babita" ---> re-declaration and updation.
+var a="babita" ---> re-declaration.
 above we won't get any error. */
 
 // ! let can be updated but not re-declared 

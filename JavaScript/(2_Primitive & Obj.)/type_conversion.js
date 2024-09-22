@@ -4,9 +4,10 @@ let value = false;
 console.log("value = " + value);
 console.log(typeof value);
 //^ String conversion is mostly obvious. A false becomes "false", null becomes "null", etc.
-value = String(value);
+// value = String(value);
 console.log("value = " + value);
-console.log(typeof value);
+// console.log(typeof value);
+console.log(typeof (value + "")); //% Another way for string coversion.
 
 console.log('\n')
 //* Numeric Conversion.

@@ -9,5 +9,4 @@ for (i = 0; i < character2.length; i++) {
     let ASCII = character2.charCodeAt(i);
     console.log("ASCII code of " + character2[i] + " is " + ASCII);
 }
-
 //% Both The charCodeAt() and The codePointAt() method takes in an index value and returns an integer representing UTF-16 (16-bit Unicode Transformation Format) code.If you don't pass the index value, the default index value will be 0. If the index value is out of range, it gives NaN.
